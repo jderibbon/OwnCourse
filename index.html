@@ -1,0 +1,50 @@
+<!doctype html>
+
+<style>
+
+    div > div > p {
+        color: blue;
+    }
+
+    section div:nth-child(2n+1) {
+        color: green;
+    }
+
+    a:hover:nth-child(5) {
+        font-size: 24px;
+    }
+
+    #ABC {
+        padding: 10px 10px 10px 10px;
+        /*margin: 10px 10px 10px 10px;*/
+        width: 100px;
+        border: 10px solid black;
+        background-color: aquamarine;
+    }
+</style>
+
+
+<div id="ABC">I am feeling blue</div>
+
+<div style="width: 160px;background-color: aquamarine;">I am feeling blue</div>
+
+
+<div>
+    <div>
+        <div class="makeMeBlue">
+            <p>I am feeling blue</p>
+        </div>
+    </div>
+    <section class="makeMeBlue">
+        <p>I just want to be left alone!</p>
+    </section>
+</div>
+
+<a>
+    <div>Div 1</div>
+    <div>Div 2</div>
+    <div>Div 3</div>
+    <div>Div 4</div>
+    <div>Div 5</div>
+    <div>Div 6</div>
+</a>
