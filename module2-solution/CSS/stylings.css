@@ -33,15 +33,18 @@ p {
 }
 
 #chicken {
-    background-color: orange;
+    background-color: #FF9393;
+    color: #000000;
 }
 
 #beef {
-    background-color: red;
+    background-color: #FF5050;
+    color: #FFFFFF;
 }
 
 #sushi {
-    background-color: yellow;
+    background-color: #FFDB50;
+    color: #000000;
 }
 
 .menu-group {
